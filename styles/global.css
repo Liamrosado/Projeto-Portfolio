@@ -35,8 +35,18 @@
 
 }
 
+img{
+  max-width: 100%;
+}
+
 body{
 font: var(--text);
 color:var(--gray-200);
 background-color: var(--gray-400);
+}
+
+.container{
+  max-width:1366px;
+  padding-inline: 80px;
+  margin-inline: auto;
 }

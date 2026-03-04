@@ -1,0 +1,35 @@
+.subtitle{
+  font: var(--subtitle);
+}
+
+.title-lg{
+  font: var(--title-lg);
+}
+
+.text-sm{
+  font: var(--text-sm);
+}
+
+.text{
+  font: var(--text);
+}
+
+.grid{
+  display: grid;
+}
+
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+.gap-8{
+  gap: 8px;
+}
+
+.gap-24{
+  gap: 24px;
+}
