@@ -33,3 +33,28 @@
 .gap-24{
   gap: 24px;
 }
+
+.content-tag{
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+max-width: 138px;
+height: 40px;
+
+/* Base/gray-400 */
+background: #292C34;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
