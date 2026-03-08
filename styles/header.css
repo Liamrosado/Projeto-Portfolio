@@ -1,5 +1,8 @@
-img{
-  position: fixed;
+#inicial{
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
 }
 
 #intro {
@@ -7,7 +10,6 @@ img{
   justify-content: center;
   align-items: center;
   flex-direction:column;
-  position: relative;
   padding-top: 120px;
   
   
@@ -33,13 +35,9 @@ padding-bottom: 80px;
   grid-auto-flow: column;
   justify-content: center;
   align-items: center;
-  position: relative;
+  
   height: 40px; ;
   gap: 16px;
-
-  div > img{
-    position: relative;
-  }
   
 
 }
@@ -48,5 +46,6 @@ padding-bottom: 80px;
   display: flex;
   justify-content: center;
   padding-top:120px;
+  
 }
 

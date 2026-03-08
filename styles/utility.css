@@ -13,6 +13,9 @@
 .text{
   font: var(--text);
 }
+.title-md{
+  font: var(--title-md)
+}
 
 .grid{
   display: grid;
