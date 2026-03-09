@@ -44,6 +44,12 @@ background-color: var(--gray-400);
 
 .container{
   max-width:1366px;
-  padding-inline: 120px;
+  padding-inline: 163px;
   margin-inline: auto;
+}
+
+
+main{
+  margin-inline: 120px;
+  justify-content: center;
 }

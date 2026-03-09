@@ -17,6 +17,10 @@
   font: var(--title-md)
 }
 
+.title-sm{
+  font: var(--title-sm);
+}
+
 .grid{
   display: grid;
 }

@@ -1,0 +1,20 @@
+header{
+  justify-items: center;
+  padding-block: 72px  56px;
+  row-gap: 8px;
+
+  h5{
+    color: var(--red);
+  }
+
+}
+
+#destaques{
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.card{
+  width: ;
+}
