@@ -16,5 +16,30 @@ header{
 }
 
 .card{
-  width: ;
+  width: 330px;
+  height: 280px;
+  border-radius:12px;
+  padding-inline: 12px;
+  padding-top: 12px;
+  background-color: var(--gray-400);
+  
+  span{
+    padding-top: 20px;
+  }
+  
+  
+  
+  img{
+    max-width:306px;
+    min-height:auto;
+    border-radius: 8px;
+    
+  }
+  
+  
 }
+
+.card:hover{
+  border: 1.5px solid var(--gray-300);
+}
+
