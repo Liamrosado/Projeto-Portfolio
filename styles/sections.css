@@ -1,17 +1,20 @@
 header{
   justify-items: center;
-  padding-block: 72px  56px;
   row-gap: 8px;
-
+  
   h5{
     color: var(--red);
   }
-
+  
 }
 
 #destaques{
   grid-auto-flow: row;
   grid-template-columns: repeat(3, 1fr);
+  margin-block: 72px  144px;
+  margin-inline: 120px;
+
+  padding-inline: 163px;
   
 }
 
@@ -43,3 +46,23 @@ header{
   border: 1.5px solid var(--gray-300);
 }
 
+
+
+#serviços{
+  max-width: 1366px;
+  min-height: 480px;
+  background-color:var(--gray-600);
+  margin: 88px 120px 120px;
+
+
+  header{
+    display: grid;
+    padding-top: 88px;
+    padding-bottom: 56px;
+    gap: 8px;
+  }
+}
+
+.card2{
+  
+}
