@@ -53,16 +53,41 @@ header{
   min-height: 480px;
   background-color:var(--gray-600);
   margin: 88px 120px 120px;
+  padding-inline: 239px;
 
 
-  header{
-    display: grid;
-    padding-top: 88px;
-    padding-bottom: 56px;
-    gap: 8px;
+  #info{
+    grid-auto-flow: column;
+    max-width: 888px;
+    min-height: 155px;
+    padding-bottom: 120px;
   }
+
+  
+
+
 }
 
+#services{
+  padding-top: 88px;
+  padding-bottom: 56px;
+  gap: 8px;
+ 
+
+}
+
+
 .card2{
+  width: 280px;
+  height: 155px;
+  border-radius: 12px;
+  padding: 20px;
+  border: 0.5px solid var(--gray-500);
+  
+  span{
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+
   
 }
